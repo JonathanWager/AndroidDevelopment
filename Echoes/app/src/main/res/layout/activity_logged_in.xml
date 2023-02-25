@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#610303"
+    tools:context=".LoggedInActivity">
+
+  <TextView
+      android:id="@+id/textView5"
+      android:layout_width="147dp"
+      android:layout_height="36dp"
+      android:layout_marginStart="39dp"
+      android:layout_marginLeft="39dp"
+      android:layout_marginTop="51dp"
+      android:text="TextView"
+      android:textColor="#F1EBEB"
+      android:textSize="34sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView6"
+      android:layout_width="388dp"
+      android:layout_height="235dp"
+      android:layout_marginBottom="28dp"
+      android:text="The main storyline remains the same as in Fire Emblem Gaiden. Long ago, the sibling gods Mila and Duma fought for control over the continent of Valentia. Eventually, they called a ceasefire and each took half of the continent. In the south, Mila's worshippers would form the Kingdom of Zofia, a land of plentiful bounty. Over time, however, it spoiled and corrupted its people through complacency. In the north, Duma's worshippers created the Empire of Rigel, a desolate land whose people grew in strength but also became numb to emotion. "
+      android:textColor="#F4EFEF"
+      android:textSize="16sp"
+      app:layout_constraintBottom_toTopOf="@+id/textView7"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <TextView
+      android:id="@+id/textView7"
+      android:layout_width="388dp"
+      android:layout_height="218dp"
+      android:layout_marginBottom="74dp"
+      android:text="Shadows of Valentia is a complete remake of Fire Emblem Gaiden.[9] The second entry in the Fire Emblem series, Gaiden was released in 1992 for the Famicom. The game was notable for breaking away from the gameplay precedents set in its predecessor, Shadow Dragon and the Blade of Light; while it retained that game's tactical turn-based battle system, it included new features, such as navigable towns and overworld akin to a traditional RPG, and simplified mechanics. Due to these changes, Gaiden came to be considered the &quot;black sheep&quot; of the series, with many of its new elements being dropped for subsequent entries. Like its predecessor, Gaiden did not receive a Western release."
+      android:textColor="#F6EDED"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  <ImageView
+      android:id="@+id/imageView4"
+      android:layout_width="114dp"
+      android:layout_height="100dp"
+      android:layout_marginStart="49dp"
+      android:layout_marginLeft="49dp"
+      android:layout_marginTop="32dp"
+      android:layout_marginEnd="62dp"
+      android:layout_marginRight="62dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/textView5"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@mipmap/echoes_1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
