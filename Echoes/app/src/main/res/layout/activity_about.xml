@@ -21,13 +21,13 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="372dp"
-        android:layout_height="397dp"
+        android:layout_width="392dp"
+        android:layout_height="224dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginEnd="19dp"
         android:layout_marginRight="19dp"
-        android:layout_marginBottom="93dp"
+        android:layout_marginBottom="265dp"
         android:text="This app is created to apriceate a game called Fire Emblem Echoes Shadows of Valentia. In this app you will learn the history of the continent of Valentia. You will also learn how this game was made as well."
         android:textColor="#FAF3F3"
         android:textColorHint="#F6F0F0"

@@ -28,23 +28,14 @@
         android:layout_height="50dp"
         android:layout_marginStart="139dp"
         android:layout_marginLeft="139dp"
-        android:layout_marginTop="36dp"
         android:layout_marginEnd="139dp"
         android:layout_marginRight="139dp"
+        android:layout_marginBottom="51dp"
         android:text="About Us"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="375dp"
-        android:layout_height="497dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/echoes_1_square" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <View
         android:id="@+id/divider"
@@ -52,14 +43,12 @@
         android:layout_height="5dp"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
-        android:layout_marginTop="17dp"
         android:layout_marginEnd="1dp"
         android:layout_marginRight="1dp"
         android:layout_marginBottom="14dp"
         android:background="?android:attr/listDivider"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
