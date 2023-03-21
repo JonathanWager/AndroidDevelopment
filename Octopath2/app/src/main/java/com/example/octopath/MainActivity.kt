@@ -17,8 +17,6 @@ import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
     private lateinit var emailViewModel: EmailList
-    val myButton: Button = findViewById(R.id.button)
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -115,7 +113,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun addEmail(view: View){
+        val myButton: Button = findViewById(R.id.button)
         val userName : EditText = findViewById(R.id.editTextTextEmailAddress)
+        emailViewModel = ViewModelProvider(this)[EmailList().javaClass]
         myButton.setOnClickListener {
             emailViewModel.emails.add(userName.toString())
             Snackbar.make(findViewById(R.id.LetterLayout),"You will recieve letter", Snackbar.LENGTH_LONG)

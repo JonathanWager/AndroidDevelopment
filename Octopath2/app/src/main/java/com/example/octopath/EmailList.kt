@@ -8,5 +8,4 @@ import kotlinx.coroutines.flow.update
 
 class EmailList : ViewModel() {
     val emails = ArrayList<String>()
-
 }

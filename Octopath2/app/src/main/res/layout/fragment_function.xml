@@ -71,6 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="56dp"
             android:layout_marginLeft="56dp"
+            android:layout_marginTop="172dp"
             android:layout_marginEnd="35dp"
             android:layout_marginRight="35dp"
             android:layout_marginBottom="74dp"
@@ -79,7 +80,8 @@
             android:src="@android:drawable/ic_media_play"
             app:layout_constraintBottom_toTopOf="@+id/playButton2"
             app:layout_constraintEnd_toStartOf="@+id/pauseButton"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
         <ImageButton
             android:id="@+id/playButton2"
@@ -120,9 +122,11 @@
             android:layout_marginStart="35dp"
             android:layout_marginLeft="35dp"
             android:layout_marginTop="172dp"
+            android:layout_marginBottom="74dp"
             android:contentDescription="Button"
             android:onClick="pauseMusic"
             android:src="@android:drawable/ic_media_pause"
+            app:layout_constraintBottom_toTopOf="@+id/pauseButton2"
             app:layout_constraintStart_toEndOf="@+id/playButton"
             app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -146,9 +150,11 @@
             android:layout_marginStart="35dp"
             android:layout_marginLeft="35dp"
             android:layout_marginTop="74dp"
+            android:layout_marginBottom="163dp"
             android:contentDescription="Button"
             android:onClick="pauseMusic"
             android:src="@android:drawable/ic_media_pause"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/playButton3"
             app:layout_constraintTop_toBottomOf="@+id/pauseButton2" />
 

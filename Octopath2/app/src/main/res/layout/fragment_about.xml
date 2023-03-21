@@ -46,10 +46,10 @@
             android:layout_height="203dp"
             android:layout_marginStart="50dp"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="54dp"
+            android:layout_marginTop="5dp"
             android:layout_marginEnd="50dp"
             android:layout_marginRight="50dp"
-            android:layout_marginBottom="98dp"
+            android:layout_marginBottom="99dp"
             android:fontFamily="@font/ptserifregular"
             android:text="This app will contain music from the first game and the mobile game."
             android:textColor="#FAF6F6"
@@ -58,6 +58,18 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/octopath6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>

@@ -40,8 +40,8 @@
         android:label="fragment_newsletter"
         tools:layout="@layout/fragment_newsletter" >
         <action
-            android:id="@+id/action_newsletterFragment_to_functionFragment"
-            app:destination="@id/functionFragment" />
+            android:id="@+id/action_newsletterFragment_to_activity_main"
+            app:destination="@id/activity_main" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
